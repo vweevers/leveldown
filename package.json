@@ -51,7 +51,7 @@
     "tape": "~4.3.0"
   },
   "scripts": {
-    "install": "prebuild --install",
+    "install": "prebuild --compile",
     "test": "tape test/*-test.js | faucet",
     "rebuild": "prebuild --compile",
     "prebuild": "prebuild --all --strip --verbose"
